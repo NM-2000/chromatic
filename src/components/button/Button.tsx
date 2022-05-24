@@ -9,7 +9,7 @@ const Button: React.FC<ButtonProps> = ({
 }) => {
     const styles = StyleSheet.create({
         button: {
-            backgroundColor: backgroundColor || 'grey',
+            backgroundColor: 'lightgreen',
             paddingHorizontal: 16,
             paddingVertical: 8,
             borderRadius: 8,
