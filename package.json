@@ -7,8 +7,7 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "chromatic": "npx chromatic --project-token=bccfef764808",
-    "chromatic-rebuild": "npx chromatic --project-token=bccfef764808 --force-rebuild"
+    "chromatic": "chromatic --project-token CHROMATIC_PROJECT_TOKEN --exit-zero-on-changes"
   },
   "dependencies": {
     "react": "17.0.2",
