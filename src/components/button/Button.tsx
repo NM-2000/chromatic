@@ -13,7 +13,7 @@ const Button: React.FC<ButtonProps> = ({
             paddingHorizontal: 16,
             paddingVertical: 8,
             borderRadius: 8,
-            alignItems: 'center'
+            alignItems: 'flex-end'
         }
     });
 
